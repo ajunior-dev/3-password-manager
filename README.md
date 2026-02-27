@@ -6,9 +6,9 @@ Aplicativo console em Java para gerenciar entradas de senha. Permite:
 - Armazenamento simples em memória (pode ser estendido para arquivo);
 - Exemplifica padrões OOP e encapsulamento.
 
-Execução:
+### Estrutura
+- `PasswordEntry.java` define o modelo de dados;
+- `PasswordManager.java` contém a lógica de menu e operações CRUD.
 
-```bash
-javac *.java
-java PasswordManager
-```
+### Uso
+Compile e execute conforme abaixo; o programa apresenta um menu interativo. Pode ser a base para um gerenciador de senhas completo ou um estudo sobre persistência de dados.
